@@ -1,6 +1,6 @@
 #### Hope Game by Applying LIST ######
 Adad = int(100)
-a = [*range(1, Adad)]
+a = [*range(1, Adad+1)]
 for i in range(0, len(a)):
     if a[i] % 3 == 0 and a[i] % 5 == 0:
         a[i] = "Hope Hip"
